@@ -1,6 +1,5 @@
 const search = document.getElementById('search');
 const matchList = document.getElementById('matchList');
-const dropdown = document.getElementById('dropdown');
 let employees;
 
 const getEmployees = async () => {
@@ -21,6 +20,7 @@ const searchEmployees = searchText => {
       employee.department.toLowerCase().includes(searchText)
     )
   });
+  
 
   outputHtml(matches);
 };
