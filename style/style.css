@@ -55,7 +55,7 @@ input:focus{
   outline-color:#f7c08a ;
 }
 
-.match-container{
+#match-container{
   margin: 100px; 
 }
 

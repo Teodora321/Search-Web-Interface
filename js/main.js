@@ -6,7 +6,7 @@ const getEmployees = async () => {
   }
 };
 
-const employee = ({ firstName, lastName, phoneNumber, department }) => (`
+const employeeItem = ({ firstName, lastName, phoneNumber, department }) => (`
   <li class="employee">
     <h2><i class="fas fa-user"></i>${firstName} ${lastName}</h2>
     <h3>Phone: ${phoneNumber}</h3>
@@ -14,7 +14,7 @@ const employee = ({ firstName, lastName, phoneNumber, department }) => (`
   </li>
 `);
 
-const employeeList = (employees) => (`<ul id="matchList">${employees.map(employee).join('')}</ul>`);
+const employeeList = (employees) => (`<ul id="matchList">${employees.map(employeeItem).join('')}</ul>`);
 
 const renderEmployees = (employees) => {
   document.getElementById('match-container').innerHTML = employeeList(employees)
