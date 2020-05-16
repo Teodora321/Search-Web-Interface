@@ -4,7 +4,7 @@ let employees;
 
 const getEmployees = async () => {
   try {
-    const res = await fetch('./employees.json');
+    const res = await fetch('./data/employees.json');
     employees = await res.json();
   } catch (err) {
     console.error(err);
