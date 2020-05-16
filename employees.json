@@ -1,159 +1,157 @@
-{
-  "employees": [
+ [
     {
       "id": "0",
       "firstName": "Albert",
-      "secondName": "Cox",
+      "lastName": "Cox",
       "phoneNumber": "777-5639",
       "department": "HR"
     },
     {
       "id": "1",
       "firstName": "Betty",
-      "secondName": "Miller",
+      "lastName": "Miller",
       "phoneNumber": "777-1193",
       "department": "Marketing"
     },
     {
       "id": "2",
       "firstName": "Betty",
-      "secondName": "Milton",
+      "lastName": "Milton",
       "phoneNumber": "777-1087",
       "department": "Accounting"
     },
     {
       "id": "3",
       "firstName": "Cody",
-      "secondName":"Wilson",
+      "lastName":"Wilson",
       "phoneNumber":"777-1230",
       "department" : "Accounting"
     },
     {
       "id": "4",
       "firstName": "Frank",
-      "secondName": "Yelton",
+      "lastName": "Yelton",
       "phoneNumber": "777-3240",
       "department": "Marketing"
     },
     {
       "id": "5",
       "firstName": "George",
-      "secondName": "Yee",
+      "lastName": "Yee",
       "phoneNumber": "777-5005",
       "department": "Legal"
     },
     {
       "id": "6",
       "firstName": "Greg",
-      "secondName": "Yoaks",
+      "lastName": "Yoaks",
       "phoneNumber": "777-7737",
       "department": "Accounting"
     },
     {
       "id": "7",
       "firstName": "Harry",
-      "secondName": "Garland",
+      "lastName": "Garland",
       "phoneNumber": "777-1301",
       "department": "HR"
     },
     {
       "id": "8",
       "firstName": "Hillary",
-      "secondName": "Dillary",
+      "lastName": "Dillary",
       "phoneNumber": "777-2089",
       "department": "Marketing"
     },
     {
       "id": "9",
       "firstName": "Howard Griggs",
-      "secondName": "Griggs",
+      "lastName": "Griggs",
       "phoneNumber": "777-9345",
       "department": "Legal"
     },
     {
       "id": "10",
       "firstName": "Jerome",
-      "secondName": "Deets",
+      "lastName": "Deets",
       "phoneNumber": "777-3533",
       "department": "Accounting"
     },
     {
       "id": "11",
       "firstName": "John",
-      "secondName": "Baz",
+      "lastName": "Baz",
       "phoneNumber": "777-5454",
       "department": "Marketing"
     },
     {
       "id": "12",
       "firstName": "John",
-      "secondName": "Baz",
+      "lastName": "Baz",
       "phoneNumber": "777-6060",
       "department": "HR"
     },
     {
       "id": "13",
       "firstName": "Liam Oppenheimer",
-      "secondName": "Oppenheimer",
+      "lastName": "Oppenheimer",
       "phoneNumber": "777-4417",
       "department": "Marketing"
     },
     {
       "id": "14",
       "firstName": "Lisa",
-      "secondName": "Deckard",
+      "lastName": "Deckard",
       "phoneNumber": "777-7652",
       "department": "HR"
     },
     {
       "id": "15",
       "firstName": "Louis",
-      "secondName": "Collins",
+      "lastName": "Collins",
       "phoneNumber": "777-2342",
       "department": "Marketing"
     },
     {
       "id": "16",
       "firstName": "Milo",
-      "secondName": "Drexler",
+      "lastName": "Drexler",
       "phoneNumber": "777-3582",
       "department": "Legal"
     },
     {
       "id": "17",
       "firstName": "Peter",
-      "secondName": "Kagen",
+      "lastName": "Kagen",
       "phoneNumber": "777-2349",
       "department": "Marketing"
     },
     {
       "id": "18",
       "firstName": "Richard",
-      "secondName": "Frink",
+      "lastName": "Frink",
       "phoneNumber": "777-9843",
       "department": "Accounting"
     },
     {
       "id": "19",
       "firstName": "Thelma",
-      "secondName": "Thomas",
+      "lastName": "Thomas",
       "phoneNumber": "777-5654",
       "department": "Accounting"
     },
     {
       "id": "20",
       "firstName": "Trent",
-      "secondName": "Lidel",
+      "lastName": "Lidel",
       "phoneNumber": "777-3208",
       "department": "HR"
     },
     {
       "id": "21",
       "firstName": "Velma",
-      "secondName": "Esperante",
+      "lastName": "Esperante",
       "phoneNumber": "777-3231",
       "department": "Accounting"
     }
     
   ]
-}
