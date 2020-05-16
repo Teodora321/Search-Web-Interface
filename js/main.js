@@ -1,5 +1,6 @@
 const search = document.getElementById('search');
 const matchList = document.getElementById('matchList');
+const matchContainer = document.getElementsByClassName('match-container')[0]
 let employees;
 
 const getEmployees = async () => {
@@ -21,7 +22,6 @@ const searchEmployees = searchText => {
     )
   });
   
-
   outputHtml(matches);
 };
 
@@ -40,11 +40,17 @@ const outputHtml = matches => {
       .join('');
   
   matchList.innerHTML = html;
+  
   if (matches.length === 0) {
     matchList.innerHTML = `
     <h2> Sorry but this employee does not work here </h2>
     `
   }
+  if (searchText.length === 0) {
+    matches = [];
+    matchList.innerHTML = '';
+   }
+
   
 };
 
