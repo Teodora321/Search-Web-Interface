@@ -1,5 +1,6 @@
 const search = document.getElementById('search');
 const matchList = document.getElementById('matchList');
+const dropdown = document.getElementById('dropdown');
 let employees;
 
 const getEmployees = async () => {
@@ -28,12 +29,16 @@ const outputHtml = matches => {
     const html = matches
       .map(
         match => ` <li class="employee">
-        <h2>Name: ${match.firstName} ${match.lastName}</h2>
-        <h3>Phone: ${match.phoneNumber}</h3>
-        <h3>Department: ${match.department} </h3>
+        <h2>
+        <i class="fas fa-user"></i>
+         ${match.firstName} ${match.lastName}</h2>
+        <h3>
+        Phone: ${match.phoneNumber}</h3>
+        <h3> Department: ${match.department} </h3>
         </li>`
       )
       .join('');
+  
   matchList.innerHTML = html;
   if (matches.length === 0) {
     matchList.innerHTML = `
@@ -43,8 +48,10 @@ const outputHtml = matches => {
   
 };
 
+
 window.addEventListener('DOMContentLoaded', getEmployees);
 search.addEventListener('input', () => searchEmployees(search.value));
+
 
 
 
